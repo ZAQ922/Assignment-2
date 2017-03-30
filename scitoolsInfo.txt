@@ -1,0 +1,74 @@
+Metrics - timeline.java
+	AvgCyclomatic 2
+	AvgCyclomaticModified 2
+	AvgCyclomaticStrict 2
+	AvgEssential 1
+	AvgLine 18.78
+	AvgLineBlank 1.87
+	AvgLineCode 14.89
+	AvgLineComment 2.56
+	CountDeclClass 22
+	CountDeclClassMethod 4
+	CountDeclClassVariable 3
+	CountDeclFunction 63
+	CountDeclInstanceMethod 59
+	CountDeclInstanceVariable 34
+	CountDeclMethod 63
+	CountDeclMethodDefault 8
+	CountDeclMethodPrivate 14
+	CountDeclMethodProtected 4
+	CountDeclMethodPublic 37
+	CountLine 1,177
+	CountLineBlank 154
+	CountLineCode 867
+	CountLineCodeDecl 287
+	CountLineCodeExe 540
+	CountLineComment 195
+	CountSemicolon 510
+	CountStmt 664
+	CountStmtDecl 296
+	CountStmtExe 368
+	MaxCyclomatic 11
+	MaxCyclomaticModified 11
+	MaxCyclomaticStrict 13
+	MaxEssential 8
+	MaxNesting 3
+	RatioCommentToCode 0.22
+	SumCyclomatic 137
+	SumCyclomaticModified 137
+	SumCyclomaticStrict 143
+	SumEssential 91
+
+177 files too long
+9 functions too long 
+27 overly complex functions
+6 unreachable code
+
+
+Classes:
+1197
+Files:
+486
+Program Units:
+5945
+Lines:
+113579
+Lines Blank:
+13911
+Lines Code:
+71334
+Lines Comment:
+30457
+Lines Inactive:
+0
+Executable Statements:
+28729
+Declarative Statements::
+21696
+Ratio Comment/Code:
+0.43
+
+
+Autopsy has 486 files and 1197 classes, and 71334 lines of code.  Each class has an average of 59 lines of codes, and each file has an average of 2.5 classes.  30% of the code is declaring variables.  40% of the code is statements that execute in some way.  177 files ran over 200 lines of code and were deemed too long.  9 functions were ran over 200 lines and were deemed too long.  27 functions were rated as too complex and there were 6 instances of unreachable code.
+
+Vulnerabilities in timeline.java were indicated by FindBugs.  In depth analysis shows that timeline has a poor amount of documentation with comments only counting for 20% of the lines.  22 different classes were declared in the file.  The file has a cyclomatic complexity of 137, with a max of 11.  This indicates that the file is overly complex and should be refactored to reduce the issues with it.  
